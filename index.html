@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tesco Travel Money</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom -->
+    <link href="css/travel-money.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6" id="convert-form">
+
+            <form name="currencyForm" action="./" method="post">
+                <fieldset>
+                    <h1>Order your currency</h1>
+
+                    <div class="row top10">
+                        <div class="col-xs-4">I want to buy:</div>
+                        <div class="col-xs-8"><input type="radio" name="choice" id="choice1" value="cash" checked>
+                            <label for="choice1">Cash</label><br>
+                            <input type="radio" name="choice" id="choice2" value="cheque">
+                            <label for="choice2">Travellers Cheques</label></div>
+                    </div>
+
+                    <div class="row top10">
+                        <div class="col-xs-12">
+                            <label for="currency">Choose your currency:</label><br>
+                            <select name="" id="currency">
+                                <option value="eur">EUR - Euro</option>
+                                <option value="usd">USD - United States Dollars</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row top10">
+                        <div class="col-xs-4">
+                            <label for="amount">How much?</label>
+                        </div>
+                        <div class="col-xs-8">
+                            &pound;<input type="text" name="" id="amount" placeholder="Amount">
+                        </div>
+                    </div>
+
+                    <div class="row top10">
+                        <div class="col-xs-12">
+                            <input type="submit" name="submit" class="submit" value="BUY NOW">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+        <div class="col-md-8 col-sm-6" id="convert-text">
+
+            <h2>Buy online or by phone</h2>
+
+            <p>When it comes to travel money, we have a range of options to make it easier for you.</p>
+
+            <p class="click"><strong>Click &amp; Collect</strong><br>
+                Order online or call us on
+                <a href="tel:08453660103" class="telephone">0845 366 0103</a>
+                and collect from one of our
+                in-store <a href="#">Travel Money Bureaux</a>.
+            </p>
+
+            <p class="click"><strong>Home delivery</strong><br>
+                Order online or call us on
+                <a href="tel:08453660103" class="telephone">0845 366 0103</a>
+                to have your travel money
+                delivered to the house.
+            </p>
+            <p class="terms">Please note that exchange rates may vary depending on if you buy over the phone, online
+                or in-store. <strong>If paying by credit or debit card in store, don't forget your photo ID.</strong></p>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Custom -->
+<script src="js/travel-money.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

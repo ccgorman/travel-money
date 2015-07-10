@@ -1,0 +1,81 @@
+$font-family: Arial, Helvetica, Georgia, sans-serif;
+$primary-color: #000066;
+$secondary-color: #FFFFFF;
+
+body {
+    background-color:#f2f5f8;
+    padding:10px 20px;
+    font-family: $font-family;
+    color:$primary-color;
+    font-size:1.4em;
+}
+
+.container {
+    background-color:#FFFFFF;
+}
+
+convert-form {
+    background-color:#3d6894;
+    padding:20px;
+    color:$secondary-color;
+
+    h1 {
+      color:$secondary-color;
+      font-size:1.4em;
+      font-weight:bold;
+      margin:0px 0px 50px 0px;
+    }
+    input, select {
+      font-family: $font-family;
+      color:#767676;
+    }
+}
+
+convert-text {
+    background-color:#FFFFFF;
+    padding:20px;
+    color:$primary-color;
+
+    h2 {
+      color:#0051a3;
+      font-size:2.2em;
+      font-weight:bold;
+      margin:0px 0px 20px 0px;
+    }
+    a {
+      color:#0051a3;
+    }
+    .telephone {
+      color:#cc0000;
+      font-weight: bold;
+    }
+    .top10 {
+      margin-top:10px;
+    }
+
+    .click {
+      background: transparent url('../images/tick.jpg') 0px 3px no-repeat;
+      padding-left:20px;
+    }
+    .terms {
+      font-size:0.9em;
+      margin-top:20px;
+    }
+    .submit {
+      color: $secondary-color;
+      font-size: 1.2em;
+      font-weight:bold;
+      border:none;
+      box-shadow: 2px 2px 0px #737f8b;
+      padding: 10px 25px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      background: #cc0000;
+      background: linear-gradient(top,  #cc0000,  #BF0000);
+      background: -ms-linear-gradient(top,  #cc0000,  #BF0000);
+      background: -webkit-gradient(linear, left top, left bottom, from(#cc0000), to(#BF0000));
+      background: -moz-linear-gradient(top,  #cc0000,  #BF0000);
+      padding:5px 30px;
+    }
+}
